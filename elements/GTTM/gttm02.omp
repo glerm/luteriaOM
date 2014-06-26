@@ -1,0 +1,63 @@
+; OM File Header - Saved 2014/05/23 20:18:03
+; (6.080003 :patc (om-make-point 118 10) (om-make-point 0 21) (om-make-point 1018 695) "" 183 0 "2014/05/23 20:12:52" "2014/05/23 20:18:03")
+; End File Header
+(in-package :om)(load-lib-for (quote nil))(setf *om-current-persistent* (om-load-patch1 "gttm02" (quote ((om-load-boxcomment "comment 3" (om-make-point 106 46) (quote "GPR03") "" (om-make-point 193 224) nil (om-make-color 0.036530018S0 0.0S0 0.32225513S0) (om-make-font "DejaVu Sans" 24.0D0 :family "DejaVu Sans" :style (quote (:bold)) :mode (quote nil))) (om-load-boxcomment "comment 8" (om-make-point 105 33) (quote "d) duração") "" (om-make-point 462 250) nil (om-make-color 0.5784378S0 0.013778895S0 0.42857933S0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-boxcomment "comment 7" (om-make-point 139 33) (quote "c) articulação") "" (om-make-point 406 38) nil (om-make-color 0.33472157S0 0.33472157S0 0.33472157S0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-boxcall (quote genfun) "PITCHBEND" (quote pitchbend) (quote ((om-load-inputfun (quote input-funbox) "pitch bend value(s)" "VALS" 0) (om-load-inputfun (quote input-funbox) "MIDI channel(s) (1-16)" "CHANS" 1))) (om-make-point 400 72) nil nil nil nil 1) (om-load-editor-box1 "TEXT-VIEW 5" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 363 296) (om-make-point 68 296) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 56 267) "untitled"))) (om-set-dialog-item-text rep "(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+(49)
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-boxcomment "comment" (om-make-point 121 33) (quote "b) dinâmica") "" (om-make-point 322 267) nil (om-make-color 0.21324444S0 0.27217484S0 0.27354813S0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-editor-box1 "TEXT-VIEW 4" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 463 296) (om-make-point 68 296) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 56 267) "untitled"))) (om-set-dialog-item-text rep "(999)
+(249)
+(249)
+(249)
+(249)
+(999)
+(249)
+(249)
+(249)
+(249)
+(499)
+(249)
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-boxcomment "comment 6" (om-make-point 109 35) (quote "a) registro") "" (om-make-point 220 254) nil (om-make-color 0.063370705S0 0.0S0 0.5379257S0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-boxcomment "comment 4" (om-make-point 117 39) (quote "mudança") "" (om-make-point 284 227) nil (om-make-color 0 0 0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-boxcomment "comment 5" (om-make-point 117 39) (quote "proximidade") "" (om-make-point 628 258) nil (om-make-color 0 0 0) (om-make-font "DejaVu Sans" 17.33203125D0 :family "DejaVu Sans" :style (quote (:plain)) :mode (quote nil))) (om-load-boxcall (quote genfun) "MC->N" (quote mc->n) (quote ((om-load-inputfun (quote input-funbox) "pitch or pitch list (midicents)" "MIDIC" (list 6000)))) (om-make-point 43 238) nil nil nil nil 1) (om-load-boxcall (quote genfun) "FLAT" (quote flat) (quote ((om-load-inputfun (quote input-funbox) "a list" "LST" nil))) (om-make-point 116 260) nil nil nil nil 1) (om-load-editor-box1 "TEXT-VIEW 2" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 225 295) (om-make-point 68 296) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 56 267) "untitled"))) (om-set-dialog-item-text rep "400
+400
+-200
+-100
+-200
+100
+-100
+200
+100
+200
+-500
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-boxcall (quote genfun) "X->DX 2" (quote x->dx) (quote ((om-load-inputfun (quote input-funbox) "a list of numbers" "SELF" 0))) (om-make-point 151 264) nil nil nil nil 1) (om-load-boxcall (quote genfun) "X->DX" (quote x->dx) (quote ((om-load-inputfun (quote input-funbox) "a list of numbers" "SELF" 0))) (om-make-point 585 226) nil nil nil nil 1) (om-load-editor-box1 "TEXT-VIEW 3" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 570 295) (om-make-point 68 296) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 56 267) "untitled"))) (om-set-dialog-item-text rep "1000
+250
+250
+250
+250
+1000
+250
+250
+250
+250
+500
+249
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-editor-box1 "TEXT-VIEW" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 43 291) (om-make-point 68 296) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 56 267) "untitled"))) (om-set-dialog-item-text rep "(C2)
+(E2)
+(G#2)
+(F#2)
+(F2)
+(Eb2)
+(E2)
+(Eb2)
+(F2)
+(F#2)
+(G#2)
+(Eb2)
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-editor-box1 "dragged" (quote chord-seq) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "pitches (mc): list or list of lists" "lmidic" (list 6000)) (om-load-inputfun (quote input-funbox) "onsets (ms): list" "lonset" (list 0 1000)) (om-load-inputfun (quote input-funbox) "durations (ms): list or list of lists" "ldur" (list 1000)) (om-load-inputfun (quote input-funbox) "velocities (0-127): list or list of lists" "lvel" (list 100)) (om-load-inputfun (quote input-funbox) "offsets (ms): list or list of lists" "loffset" (list 0)) (om-load-inputfun (quote input-funbox) "MIDI channels (1-16): list or list of lists" "lchan" (list 1)) (om-load-inputfun (quote input-funbox) "relative chords duration (0-100)" "legato" 0))) (om-make-point 65 43) (om-make-point 313 115) (let ((newobj (when (find-class (quote chord-seq) nil) (make-instance (quote chord-seq) :lmidic (quote ((4800) (5200) (5600) (5400) (5300) (5100) (5200) (5100) (5300) (5400) (5600) (5100))) :lonset (quote (0 1000 1250 1500 1750 2000 3000 3250 3500 3750 4000 4500 4749)) :ldur (quote ((999) (249) (249) (249) (249) (999) (249) (249) (249) (249) (499) (249))) :lvel (quote ((49) (49) (49) (49) (49) (49) (49) (49) (49) (49) (49) (49))) :loffset (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0))) :lchan (quote ((3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3))) :legato 0)))) (load-port-info newobj (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)))) (init-mus-color newobj (quote nil)) (set-extra-pairs newobj (quote nil)) (set-patch-pairs newobj (quote ((nil (om-load-patch-abs1 "patch" (quote nil) (quote nil) 6.080003 nil "" (om-make-point 200 200) (om-make-point 400 500)))))) (set-name newobj nil) (set-tonalite newobj nil) newobj) "x" nil (pairlis (quote (scale show-stems cursor-mode obj-mode score-mode winpos winsize mode grillestep notechancolor? zoom player inport outport deltapict cmnpref staff fontsize approx)) (list nil (quote t) (quote :normal) 1 0 (om-make-point 0 0) (om-make-point 534 349) 0 1000 nil 1 (quote :jackmidi) nil nil (om-make-point 0 0) (let ((newobj (make-instance (quote edition-values)))) (setf (paper-size newobj) (om-make-point 600 800)) (setf (top-margin newobj) 2) (setf (left-margin newobj) 1) (setf (right-margin newobj) 1) (setf (bottom-margin newobj) 1) (setf (orientation newobj) nil) (setf (scale newobj) nil) (setf (system-space newobj) (quote (1))) (setf (system-color newobj) (quote nil)) (setf (line-space newobj) 1) (setf (title newobj) nil) (setf (show-title? newobj) nil) (setf (show-page? newobj) nil) (setf (sheet-id newobj) nil) (setf (page-mode newobj) nil) newobj) (quote f) 24 2)) t nil nil nil) (om-load-boxcomment "comment 2" (om-make-point 106 46) (quote "GPR02") "" (om-make-point 629 230) nil (om-make-color 1.0S0 0.0S0 0.0S0) (om-make-font "DejaVu Sans" 24.0D0 :family "DejaVu Sans" :style (quote (:bold)) :mode (quote nil))))) (quote ((17 4 4 0 ((om-make-point 238 156) (om-make-point 238 203) (om-make-point 396 205) (om-make-point 397 296)) 12) (17 3 6 0 ((om-make-point 203 156) (om-make-point 425 179) (om-make-point 464 278) (om-make-point 497 296)) 5) (17 1 10 0 nil 1) (17 1 11 0 nil 1) (13 0 12 0 nil 1) (11 0 13 0 nil 1) (17 2 14 0 nil 2) (14 0 15 0 nil 0) (10 0 16 0 nil 0))) nil 6.080003))
