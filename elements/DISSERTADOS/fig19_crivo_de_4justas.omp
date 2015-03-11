@@ -1,0 +1,92 @@
+; OM File Header - Saved 2015/03/10 16:35:14
+; (6.080003 :patc (om-make-point 172 10) (om-make-point 50 50) (om-make-point 1364 585) "" 183 0 "2015/03/10 16:06:41" "2015/03/10 16:06:41")
+; End File Header
+(in-package :om)(load-lib-for (quote nil))(setf *om-current-persistent* (om-load-patch1 "crivos" (quote ((om-load-boxcall (quote genfun) "ROTATE" (quote rotate) (quote ((om-load-inputfun (quote input-funbox) "the list" "LIST" nil) (om-load-inputfun (quote input-funbox) "nth" "NTH" 12))) (om-make-point 418 268) nil nil nil nil 1) (om-load-boxcall (quote genfun) "C-UNION 2" (quote c-union) (quote ((om-load-inputfun (quote input-funbox) "" "SELF" nil) (om-load-inputfun (quote input-funbox) "" "CRIBLE" nil))) (om-make-point 433 186) nil nil nil nil 1) (om-load-editor-box1 "CRIBLE 3" (quote crible) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "" "cr-exp" (list 2 0 18)))) (om-make-point 398 85) (om-make-point 67 66) (if (find-class (quote crible) nil) (make-instance (quote crible) :cr-exp (list 3 60 96) :from-file t)) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) nil nil nil nil) (om-load-boxcall (quote bastype) "aux 5" (quote t) (quote nil) (om-make-point 406 29) (om-make-point 75 32) (list 3 60 96) "( 3 60 96)" nil) (om-load-boxcall (quote genfun) "C-UNION" (quote c-union) (quote ((om-load-inputfun (quote input-funbox) "" "SELF" nil) (om-load-inputfun (quote input-funbox) "" "CRIBLE" nil))) (om-make-point 939 286) nil nil nil nil 1) (om-load-boxcall (quote genfun) "REVEL-CRIBLE 2" (quote revel-crible) (quote ((om-load-inputfun (quote input-funbox) "" "SELF" nil))) (om-make-point 500 207) nil nil nil nil 1) (om-load-editor-box1 "CRIBLE 2" (quote crible) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "" "cr-exp" (list 2 0 18)))) (om-make-point 480 92) (om-make-point 67 66) (if (find-class (quote crible) nil) (make-instance (quote crible) :cr-exp (list 8 36 60) :from-file t)) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) nil nil nil nil) (om-load-editor-box1 "TEXT-VIEW 4" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 730 55) (om-make-point 45 266) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 33 237) "untitled"))) (om-set-dialog-item-text rep "36
+39
+40
+42
+44
+45
+48
+51
+52
+54
+56
+57
+60
+63
+64
+66
+68
+69
+72
+75
+76
+78
+80
+81
+84
+87
+88
+90
+92
+93
+96
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-boxcall (quote bastype) "aux 4" (quote t) (quote nil) (om-make-point 488 36) (om-make-point 75 32) (list 4 36 60) "( 4 36 60)" nil) (om-load-boxcall (quote genfun) "OM* 2" (quote om*) (quote ((om-load-inputfun (quote input-funbox) "number or list" "ARG1" 0) (om-load-inputfun (quote input-funbox) "number or list" "ARG2" 100))) (om-make-point 552 326) nil nil nil nil 1) (om-load-boxcall (quote bastype) "aux 3" (quote t) (quote nil) (om-make-point 572 284) (om-make-point 41 32) 100 "100" nil) (om-load-editor-box1 "CHORD-SEQ 2" (quote chord-seq) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "pitches (mc): list or list of lists" "lmidic" (list 6000)) (om-load-inputfun (quote input-funbox) "onsets (ms): list" "lonset" (list 0 100)) (om-load-inputfun (quote input-funbox) "durations (ms): list or list of lists" "ldur" (list 1000)) (om-load-inputfun (quote input-funbox) "velocities (0-127): list or list of lists" "lvel" (list 100)) (om-load-inputfun (quote input-funbox) "offsets (ms): list or list of lists" "loffset" (list 0)) (om-load-inputfun (quote input-funbox) "MIDI channels (1-16): list or list of lists" "lchan" (list 1)) (om-load-inputfun (quote input-funbox) "relative chords duration (0-100)" "legato" 0))) (om-make-point 451 408) (om-make-point 284 179) (let ((newobj (when (find-class (quote chord-seq) nil) (make-instance (quote chord-seq) :lmidic (quote ((8700) (9000) (9300) (9600) (3600) (4400) (5200) (6000) (6300) (6600) (6900) (7200) (7500) (7800) (8100) (8400))) :lonset (quote (0 100 200 300 400 500 600 700 800 900 1000 1100 1200 1300 1400 1500 2500)) :ldur (quote ((1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000))) :lvel (quote ((100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100))) :loffset (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0))) :lchan (quote ((1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1))) :legato 0)))) (load-port-info newobj (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)))) (init-mus-color newobj (quote nil)) (set-extra-pairs newobj (quote nil)) (set-patch-pairs newobj (quote nil)) (set-name newobj nil) (set-tonalite newobj nil) newobj) nil nil (pairlis (quote (approx fontsize staff cmnpref deltapict outport inport player zoom notechancolor? grillestep mode winsize winpos score-mode obj-mode cursor-mode show-stems scale)) (list 2 24 (quote ggff) (let ((newobj (make-instance (quote edition-values)))) (setf (paper-size newobj) (om-make-point 600 800)) (setf (top-margin newobj) 2) (setf (left-margin newobj) 1) (setf (right-margin newobj) 1) (setf (bottom-margin newobj) 1) (setf (orientation newobj) nil) (setf (scale newobj) nil) (setf (system-space newobj) (quote (1))) (setf (system-color newobj) (quote nil)) (setf (line-space newobj) 1) (setf (title newobj) nil) (setf (show-title? newobj) nil) (setf (show-page? newobj) nil) (setf (sheet-id newobj) nil) (setf (page-mode newobj) nil) newobj) (om-make-point 0 0) nil nil (quote :jackmidi) 1 nil 1000 0 (om-make-point 478 310) (om-make-point 0 0) 0 1 (quote :normal) (quote t) nil)) t nil nil nil) (om-load-boxcall (quote genfun) "MC->N 2" (quote mc->n) (quote ((om-load-inputfun (quote input-funbox) "pitch or pitch list (midicents)" "MIDIC" (list 6000)))) (om-make-point 619 333) nil nil nil nil 1) (om-load-editor-box1 "TEXT-VIEW 3" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 788 77) (om-make-point 49 290) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 37 261) "untitled"))) (om-set-dialog-item-text rep "C1
+Eb1
+E1
+F#1
+G#1
+A1
+C2
+Eb2
+E2
+F#2
+G#2
+A2
+C3
+Eb3
+E3
+F#3
+G#3
+A3
+C4
+Eb4
+E4
+F#4
+G#4
+A4
+C5
+Eb5
+E5
+F#5
+G#5
+A5
+C6
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-editor-box1 "TEXT-VIEW 2" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 277 79) (om-make-point 49 290) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 37 261) "untitled"))) (om-set-dialog-item-text rep "C1
+F1
+Bb1
+Eb2
+G#2
+C#3
+F#3
+B3
+E4
+A4
+D5
+G5
+C6
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-boxcall (quote genfun) "MC->N" (quote mc->n) (quote ((om-load-inputfun (quote input-funbox) "pitch or pitch list (midicents)" "MIDIC" (list 6000)))) (om-make-point 207 337) nil nil nil nil 1) (om-load-editor-box1 "CHORD-SEQ" (quote chord-seq) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "pitches (mc): list or list of lists" "lmidic" (list 6000)) (om-load-inputfun (quote input-funbox) "onsets (ms): list" "lonset" (list 0 300)) (om-load-inputfun (quote input-funbox) "durations (ms): list or list of lists" "ldur" (list 1000)) (om-load-inputfun (quote input-funbox) "velocities (0-127): list or list of lists" "lvel" (list 100)) (om-load-inputfun (quote input-funbox) "offsets (ms): list or list of lists" "loffset" (list 0)) (om-load-inputfun (quote input-funbox) "MIDI channels (1-16): list or list of lists" "lchan" (list 1)) (om-load-inputfun (quote input-funbox) "relative chords duration (0-100)" "legato" 0))) (om-make-point 39 412) (om-make-point 284 179) (let ((newobj (when (find-class (quote chord-seq) nil) (make-instance (quote chord-seq) :lmidic (quote ((3600) (4100) (4600) (5100) (5600) (6100) (6600) (7100) (7600) (8100) (8600) (9100) (9600))) :lonset (quote (0 300 600 900 1200 1500 1800 2100 2400 2700 3000 3300 3600 4600)) :ldur (quote ((1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000) (1000))) :lvel (quote ((100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100) (100))) :loffset (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0))) :lchan (quote ((1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1))) :legato 0)))) (load-port-info newobj (quote ((0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0) (0)))) (init-mus-color newobj (quote nil)) (set-extra-pairs newobj (quote nil)) (set-patch-pairs newobj (quote ((nil (om-load-patch-abs1 "patch" (quote nil) (quote nil) 6.080003 nil "" (om-make-point 200 200) (om-make-point 400 500)))))) (set-name newobj nil) (set-tonalite newobj nil) newobj) nil nil (pairlis (quote (approx fontsize staff cmnpref deltapict outport inport player zoom notechancolor? grillestep mode winsize winpos score-mode obj-mode cursor-mode show-stems scale)) (list 2 24 (quote ggff) (let ((newobj (make-instance (quote edition-values)))) (setf (paper-size newobj) (om-make-point 600 800)) (setf (top-margin newobj) 2) (setf (left-margin newobj) 1) (setf (right-margin newobj) 1) (setf (bottom-margin newobj) 1) (setf (orientation newobj) nil) (setf (scale newobj) nil) (setf (system-space newobj) (quote (1))) (setf (system-color newobj) (quote nil)) (setf (line-space newobj) 1) (setf (title newobj) nil) (setf (show-title? newobj) nil) (setf (show-page? newobj) nil) (setf (sheet-id newobj) nil) (setf (page-mode newobj) nil) newobj) (om-make-point 0 0) nil nil (quote :jackmidi) 1 nil 1000 0 (om-make-point 478 310) (om-make-point 0 0) 0 1 (quote :normal) (quote t) nil)) t nil nil nil) (om-load-boxcall (quote bastype) "aux 2" (quote t) (quote nil) (om-make-point 140 288) (om-make-point 41 32) 100 "100" nil) (om-load-boxcall (quote genfun) "OM*" (quote om*) (quote ((om-load-inputfun (quote input-funbox) "number or list" "ARG1" 0) (om-load-inputfun (quote input-funbox) "number or list" "ARG2" 100))) (om-make-point 144 377) nil nil nil nil 1) (om-load-boxcall (quote bastype) "aux" (quote t) (quote nil) (om-make-point 95 49) (om-make-point 75 32) (list 5 36 96) "( 5 36 96)" nil) (om-load-editor-box1 "TEXT-VIEW" (quote text-view) (quote ((om-load-inputfun (quote input-funbox) "dialog-item text (string)" "text" "untitled"))) (om-make-point 219 57) (om-make-point 45 266) (let ((rep (om-make-dialog-item (quote text-view) (om-make-point 1 1) (om-make-point 33 237) "untitled"))) (om-set-dialog-item-text rep "36
+41
+46
+51
+56
+61
+66
+71
+76
+81
+86
+91
+96
+") rep) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-editor-box1 "N-CERCLE" (quote n-cercle) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "" "n" 12) (om-load-inputfun (quote input-funbox) "" "puntos" (list 0 5 7)))) (om-make-point 19 304) (om-make-point 89 100) (if (find-class (quote n-cercle) nil) (make-instance (quote n-cercle) :n 12 :puntos (list (list 36 41 46 51 56 61 66 71 76 81 86 91 96)) :from-file t)) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) t nil nil nil) (om-load-editor-box1 "CRIBLE" (quote crible) (quote ((om-load-inputfun (quote input-funbox) "object" "self" nil) (om-load-inputfun (quote input-funbox) "" "cr-exp" (list 2 0 18)))) (om-make-point 43 105) (om-make-point 112 75) (if (find-class (quote crible) nil) (make-instance (quote crible) :cr-exp (list 5 36 96) :from-file t)) nil nil (pairlis (quote (winsize winpos)) (list (om-make-point 335 275) (om-make-point 10 40))) nil nil nil nil) (om-load-boxcall (quote genfun) "REVEL-CRIBLE" (quote revel-crible) (quote ((om-load-inputfun (quote input-funbox) "" "SELF" nil))) (om-make-point 88 211) nil nil nil nil 1))) (quote ((9 0 0 0 nil 0) (2 0 1 0 nil 0) (6 0 1 1 nil 0) (3 0 2 1 nil 0) (1 0 5 0 nil 0) (8 0 6 1 nil 0) (5 0 7 0 nil 0) (5 0 9 0 nil 0) (10 0 9 1 nil 0) (0 0 11 1 nil 0) (9 0 12 0 nil 0) (12 0 13 0 nil 0) (15 0 14 0 nil 0) (18 0 15 0 nil 0) (18 0 16 1 nil 0) (23 0 18 0 nil 0) (17 0 18 1 nil 0) (23 0 20 0 nil 0) (23 0 21 2 nil 0) (19 0 22 1 nil 0) (22 0 23 0 nil 0))) nil 6.080003))
